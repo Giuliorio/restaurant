@@ -7,4 +7,4 @@ const createElement = (type, text, ...classNames) => {
     return element
 }
 
-export default createElement;
+export  { createElement };

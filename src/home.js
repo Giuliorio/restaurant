@@ -1,4 +1,4 @@
-import createElement from './helper.js'
+import { createElement } from './helper.js'
 
 function home() {
     const homeContainer = createElement('div', null, 'home');

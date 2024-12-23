@@ -63,3 +63,7 @@ nav button:hover {
     align-items: center;
     gap: 40px;
 }
+
+.menu ul {
+    list-style-type: none;
+}
