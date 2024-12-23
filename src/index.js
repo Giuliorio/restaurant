@@ -1,8 +1,9 @@
 import './reset.css';
 import './styles.css';
 
-import routeToHome from './home.js'
-import routeToMenu from './menu.js'
+import routeToHome from './home.js';
+import routeToMenu from './menu.js';
+import routeToAbout from './about.js';
 
 const homeButton = document.querySelector('button.home');
 const menuButton = document.querySelector('button.menu');
@@ -27,5 +28,6 @@ menuButton.addEventListener('click', () => {
 });
 
 aboutButton.addEventListener('click', () => {
-    
+    resetContent();
+    content.appendChild(routeToAbout());
 });

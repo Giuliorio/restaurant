@@ -54,6 +54,7 @@ nav button:hover {
     max-height: 400px;
 
     margin-top: 150px;
+    padding: 32px;
 
     border-radius: 15px;
 
@@ -66,4 +67,8 @@ nav button:hover {
 
 .menu ul {
     list-style-type: none;
+}
+
+#content .description {
+    text-align: center;
 }
